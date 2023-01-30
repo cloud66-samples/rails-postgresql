@@ -2,3 +2,6 @@ rails:
   configuration:
     ruby_version: "2.7.2"
     node_version: "10"
+postgresql:
+  configuration:
+    version: "12.9"
