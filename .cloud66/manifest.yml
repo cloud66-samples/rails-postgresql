@@ -6,7 +6,8 @@ postgresql:
   groups:
     default:
       configuration:
-        version: 12.9
+        version: "12.9"
     secondy:
       configuration:
-        version: 12.9
+        version: "12.9"
+        operating_system: ubuntu2204
