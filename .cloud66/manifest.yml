@@ -2,3 +2,43 @@ rails:
   configuration:
     ruby_version: "2.7.2"
     node_version: "10"
+  servers:
+  - server:
+      unique_name: alpha
+      vendor: vultr
+      key_name: Default
+      region: "cdg"
+      size: "204"
+  - server:
+      unique_name: bravo
+      vendor: vultr
+      key_name: Default
+      region: "cdg"
+      size: "204"
+load_balancer:
+  configuration:
+    httpchk: /health
+elasticsearch:
+  servers:
+  - server:
+      unique_name: elastic
+      vendor: vultr
+      key_name: Default
+      region: "cdg"
+      size: "203"
+postgresql:
+  servers:
+  - server:
+      unique_name: charlie
+      vendor: vultr
+      key_name: Default
+      region: "cdg"
+      size: "204"
+  - server:
+      unique_name: delta
+      vendor: vultr
+      key_name: Default
+      region: "cdg"
+      size: "204"
+  configuration:
+    version: 12.6
