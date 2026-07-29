@@ -5,10 +5,16 @@
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "4.2.2",
+    "@rails/webpacker": "5.4.4",
     "chalk": "^3.0.0",
     "lodash": "^4.17.15",
+    "sass": "1.45.0",
     "turbolinks": "^5.2.0"
+  },
+  "resolutions": {
+    "sass": "1.45.0",
+    "browserslist": "4.28.7",
+    "node-releases": "2.0.44"
   },
   "version": "0.1.0",
   "devDependencies": {
